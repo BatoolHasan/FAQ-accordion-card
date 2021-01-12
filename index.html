@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./styles/styles.css" rel="stylesheet">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <img class="container_img-3" src="./images/illustration-box-desktop.svg" alt="" />
+      <picture class="container_img-2 container_img-2-mobile">
+        <img src="./images/illustration-woman-online-mobile.svg" alt="">
+      </picture>
+      <div class='container_img'>
+        <!-- <h1>Images</h1> -->
+        <picture class="container_img-1">
+          <source media="(max-width: 1100px)" srcset="./images/bg-pattern-mobile.svg">
+          <source media="(min-width: 1101px)" srcset="./images/bg-pattern-desktop.svg">
+          <img src="./images/bg-pattern-mobile.svg" alt="">
+        </picture>
+        <picture class="container_img-2 container_img-2-desktop">
+          <img src="./images/illustration-woman-online-desktop.svg" alt="">
+        </picture>
+      </div>
+      <div class='container_faq'>
+        <h1>FAQ</h1>
+        <div class="faq">
+          <label class="">
+            <input class="radio" type="radio" name="question">
+            <div class="faq_question">
+              <p>How many team members can I invite?</p>
+              <img class="faq_arrow" src="./images/icon-arrow-down.svg" />
+            </div>
+            <div class="faq_answer">
+              You can invite up to 2 additional users on the Free plan. There is no limit on team members for the
+              Premium plan.
+            </div>
+          </label>
+        </div>
+        <!-- second question -->
+        <div class="faq">
+          <label class="">
+            <input class="radio" type="radio" name="question" checked>
+            <div class="faq_question">
+              <p>What is the maximum file upload size?</p>
+              <img class="faq_arrow" src="./images/icon-arrow-down.svg" />
+            </div>
+            <div class="faq_answer">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </div>
+          </label>
+        </div>
+        <!-- third question -->
+        <div class="faq">
+          <label class="">
+            <input class="radio" type="radio" name="question">
+            <div class="faq_question">
+              <p>How do I reset my password?</p>
+              <img class="faq_arrow" src="./images/icon-arrow-down.svg" />
+            </div>
+            <div class="faq_answer">
+              Click “Forgot password” from the login page or “Change password” from your profile page.A reset link will
+              be
+              emailed to you.
+            </div>
+          </label>
+        </div>
+        <!-- fourth question -->
+        <div class="faq">
+          <label class="">
+            <input class="radio" type="radio" name="question">
+            <div class="faq_question">
+              <p>Can I cancel my subscription?</p>
+              <img class="faq_arrow" src="./images/icon-arrow-down.svg" />
+            </div>
+            <div class="faq_answer">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </div>
+          </label>
+        </div>
+        <!-- fifth question -->
+        <div class="faq">
+          <label class="">
+            <input class="radio" type="radio" name="question">
+            <div class="faq_question">
+              <p>Do you provide additional support?</p>
+              <img class="faq_arrow" src="./images/icon-arrow-down.svg" />
+            </div>
+            <div class="faq_answer">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </div>
+          </label>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">Frontend
+      Mentor</a>.
+    Coded by <a href="#">Batool Hasan</a>.
+  </div>
+</body>
+
+</html>
